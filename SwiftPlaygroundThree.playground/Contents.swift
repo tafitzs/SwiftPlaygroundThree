@@ -33,6 +33,27 @@ print(fruitBasket[1])
 
 print(fruitBasket[0])
 
+//Part 8, Start of Assignment #4
+
+var numberBasket = [2, 4, 7, 8, 21]
+
+for item in numberBasket{
+    
+    print("My favorite number is " , item)
+    
+}
+
+//Part 9
+//remove item at index 2 and print array
+numberBasket.remove(at: 2)
+
+print(numberBasket)
+
+//append an item in array
+numberBasket.append(99)
+print(numberBasket)
+
+
 
 
 
